@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]">
+  <parameter name="API_Key" value="eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiJwYWRtYSIsImVtYWlsIjoicGFkZHVycHY0OEBnbWFpbC5jb20iLCJpYXQiOjE2NTE3MTc3NzEsImV4cCI6MTY1MTk3Njk3MX0.K7yRAjXSy_McCv6tASnZT8J2-uHj1kOsuqoJ2uzmYqHD28T98Qvd-YHk5Hj4kBdLUWrnnIalZmqN_9J1QcNjAA"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="API_Base_URL" value="https://supervillain.herokuapp.com"/>
+  <test parallel="none" name="Test(failed)">
+    <parameter name="API_Key" value="eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiJwYWRtYSIsImVtYWlsIjoicGFkZHVycHY0OEBnbWFpbC5jb20iLCJpYXQiOjE2NTE3MTc3NzEsImV4cCI6MTY1MTk3Njk3MX0.K7yRAjXSy_McCv6tASnZT8J2-uHj1kOsuqoJ2uzmYqHD28T98Qvd-YHk5Hj4kBdLUWrnnIalZmqN_9J1QcNjAA"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="API_Base_URL" value="https://supervillain.herokuapp.com"/>
+    <classes>
+      <class name="superherosregression.WebRegression">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- superherosregression.WebRegression -->
+      <class name="superherosregression.APIRegression">
+        <methods>
+          <include name="Registration"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- superherosregression.APIRegression -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
