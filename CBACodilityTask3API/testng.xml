@@ -9,8 +9,8 @@
 <!--        <class name="superherosregression.APIRegression"/> -->
       <class name="superherosregression.WebRegression"/>
     </classes>
-  </test> Test
-   <test thread-count="1" name="FirefoxRegression">
+  </test> 
+ <!--    <test thread-count="1" name="FirefoxRegression">
     <parameter name="browser" value="firefox"></parameter>
   	<parameter name="API_Key" value="eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiJwYWRtYSIsImVtYWlsIjoicGFkZHVycHY0OEBnbWFpbC5jb20iLCJpYXQiOjE2NTE3MTc3NzEsImV4cCI6MTY1MTk3Njk3MX0.K7yRAjXSy_McCv6tASnZT8J2-uHj1kOsuqoJ2uzmYqHD28T98Qvd-YHk5Hj4kBdLUWrnnIalZmqN_9J1QcNjAA"></parameter>
   	<parameter name="API_Base_URL" value="https://supervillain.herokuapp.com"></parameter>
@@ -18,5 +18,5 @@
       
       <class name="superherosregression.WebRegression"/>
     </classes>
-  </test> <!-- Test -->/
+  </test> --><!-- Test -->/
 </suite> <!-- Suite -->
