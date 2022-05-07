@@ -14,6 +14,7 @@ import org.testng.annotations.BeforeTest;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Wait;
@@ -57,7 +58,13 @@ public class WebRegression {
 			// System.setProperty("webdriver.gecko.driver",
 			// "D:\\Automation\\CBACodilityTask3API\\Driver\\geckodriver.exe");
 			WebDriverManager.firefoxdriver().setup();
-			driver = new FirefoxDriver();
+			//driver = new FirefoxDriver();
+			FirefoxOptions foptions= new FirefoxOptions();
+			foptions.addArguments("--headless"); // open Browser in maximized mode
+			foptions.addArguments("--no-sandbox");
+			
+			foptions.addArguments("--disable-dev-shm-usage");
+			driver = new FirefoxDriver(foptions);
 			driver.get("https://responsivefight.herokuapp.com/");
 			driver.manage().window().maximize();
 			driver.manage().deleteAllCookies();

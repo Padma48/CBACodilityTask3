@@ -14,6 +14,7 @@
           <include name="Verify_dashboard_with_registration"/>
           <include name="beforeTest"/>
           <include name="beforeTest"/>
+          <include name="Verity_dashboard_with_login" invocation-numbers="0"/>
           <include name="afterTest"/>
           <include name="afterTest"/>
         </methods>

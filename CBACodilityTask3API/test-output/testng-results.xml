@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="8" passed="7" failed="1" skipped="0">
+<testng-results total="8" passed="6" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-05-07T09:42:48Z" name="Suite" finished-at="2022-05-07T09:45:27Z" duration-ms="159065">
+  <suite started-at="2022-05-07T12:05:45Z" name="Suite" finished-at="2022-05-07T12:06:27Z" duration-ms="42341">
     <groups>
     </groups>
-    <test started-at="2022-05-07T09:42:48Z" name="ChromeRegression" finished-at="2022-05-07T09:43:35Z" duration-ms="46911">
+    <test started-at="2022-05-07T12:05:45Z" name="ChromeRegression" finished-at="2022-05-07T12:06:14Z" duration-ms="29784">
       <class name="superherosregression.WebRegression">
-        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:superherosregression.WebRegression@72c8e7b]" started-at="2022-05-07T19:42:48Z" name="beforeTest" finished-at="2022-05-07T19:42:53Z" duration-ms="5731" status="PASS">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:superherosregression.WebRegression@26abb146]" started-at="2022-05-07T22:05:45Z" name="beforeTest" finished-at="2022-05-07T22:05:51Z" duration-ms="6539" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="Verify_dashboard_with_registration()[pri:0, instance:superherosregression.WebRegression@72c8e7b]" started-at="2022-05-07T19:42:53Z" name="Verify_dashboard_with_registration" finished-at="2022-05-07T19:43:18Z" duration-ms="24975" status="PASS">
+        <test-method signature="Verify_dashboard_with_registration()[pri:0, instance:superherosregression.WebRegression@26abb146]" started-at="2022-05-07T22:05:51Z" name="Verify_dashboard_with_registration" finished-at="2022-05-07T22:06:06Z" duration-ms="14604" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_dashboard_with_registration -->
-        <test-method signature="Verity_dashboard_with_login(java.lang.String, java.lang.String)[pri:0, instance:superherosregression.WebRegression@72c8e7b]" started-at="2022-05-07T19:43:19Z" name="Verity_dashboard_with_login" data-provider="login" finished-at="2022-05-07T19:43:32Z" duration-ms="12625" status="PASS">
+        <test-method signature="Verity_dashboard_with_login(java.lang.String, java.lang.String)[pri:0, instance:superherosregression.WebRegression@26abb146]" started-at="2022-05-07T22:06:07Z" name="Verity_dashboard_with_login" data-provider="login" finished-at="2022-05-07T22:06:12Z" duration-ms="5396" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -38,7 +38,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verity_dashboard_with_login -->
-        <test-method signature="Verity_errormessage_invalilogin(java.lang.String, java.lang.String)[pri:0, instance:superherosregression.WebRegression@72c8e7b]" started-at="2022-05-07T19:43:32Z" name="Verity_errormessage_invalilogin" data-provider="invalidlogin" finished-at="2022-05-07T19:43:33Z" duration-ms="1204" status="PASS">
+        <test-method signature="Verity_errormessage_invalilogin(java.lang.String, java.lang.String)[pri:0, instance:superherosregression.WebRegression@26abb146]" started-at="2022-05-07T22:06:12Z" name="Verity_errormessage_invalilogin" data-provider="invalidlogin" finished-at="2022-05-07T22:06:13Z" duration-ms="1121" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -54,7 +54,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verity_errormessage_invalilogin -->
-        <test-method signature="Verity_errormessage_invalilogin(java.lang.String, java.lang.String)[pri:0, instance:superherosregression.WebRegression@72c8e7b]" started-at="2022-05-07T19:43:33Z" name="Verity_errormessage_invalilogin" data-provider="invalidlogin" finished-at="2022-05-07T19:43:34Z" duration-ms="1130" status="PASS">
+        <test-method signature="Verity_errormessage_invalilogin(java.lang.String, java.lang.String)[pri:0, instance:superherosregression.WebRegression@26abb146]" started-at="2022-05-07T22:06:13Z" name="Verity_errormessage_invalilogin" data-provider="invalidlogin" finished-at="2022-05-07T22:06:14Z" duration-ms="1074" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -70,15 +70,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verity_errormessage_invalilogin -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:superherosregression.WebRegression@72c8e7b]" started-at="2022-05-07T19:43:34Z" name="afterTest" finished-at="2022-05-07T19:43:35Z" duration-ms="257" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:superherosregression.WebRegression@26abb146]" started-at="2022-05-07T22:06:14Z" name="afterTest" finished-at="2022-05-07T22:06:14Z" duration-ms="122" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- superherosregression.WebRegression -->
     </test> <!-- ChromeRegression -->
-    <test started-at="2022-05-07T09:43:35Z" name="FirefoxRegression" finished-at="2022-05-07T09:45:27Z" duration-ms="112126">
+    <test started-at="2022-05-07T12:06:14Z" name="FirefoxRegression" finished-at="2022-05-07T12:06:27Z" duration-ms="12541">
       <class name="superherosregression.WebRegression">
-        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:superherosregression.WebRegression@446a1e84]" started-at="2022-05-07T19:43:35Z" name="beforeTest" finished-at="2022-05-07T19:43:42Z" duration-ms="7195" status="PASS">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:superherosregression.WebRegression@58e1d9d]" started-at="2022-05-07T22:06:14Z" name="beforeTest" finished-at="2022-05-07T22:06:21Z" duration-ms="6534" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -89,27 +89,27 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="Verify_dashboard_with_registration()[pri:0, instance:superherosregression.WebRegression@446a1e84]" started-at="2022-05-07T19:43:42Z" name="Verify_dashboard_with_registration" finished-at="2022-05-07T19:44:01Z" duration-ms="19323" status="FAIL">
+        <test-method signature="Verify_dashboard_with_registration()[pri:0, instance:superherosregression.WebRegression@58e1d9d]" started-at="2022-05-07T22:06:21Z" name="Verify_dashboard_with_registration" finished-at="2022-05-07T22:06:21Z" duration-ms="426" status="FAIL">
           <exception class="org.openqa.selenium.ElementNotInteractableException">
             <message>
               <![CDATA[Element <input id="worrior_username" class="center" type="text"> could not be scrolled into view
 Build info: version: '4.1.3', revision: '7b1ebf28ef'
 System info: host: 'SAKET-PC', ip: '192.168.141.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [3cb27cee-4fb0-4cdf-a95c-b2dcae493053, clearElement {id=61422678-3dc0-4965-99d1-930d490aec6a}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 100.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220428192727, moz:debuggerAddress: localhost:57050, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 30396, moz:profile: C:\Users\BACS\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:57050/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Element: [[FirefoxDriver: firefox on WINDOWS (3cb27cee-4fb0-4cdf-a95c-b2dcae493053)] -> id: worrior_username]
-Session ID: 3cb27cee-4fb0-4cdf-a95c-b2dcae493053]]>
+Command: [596000d0-5384-4734-a320-c6e1efcc5a9d, clearElement {id=e1cad395-4c78-4d83-a901-f4cad74c68fe}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 100.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220428192727, moz:debuggerAddress: localhost:64553, moz:geckodriverVersion: 0.31.0, moz:headless: true, moz:processID: 16336, moz:profile: C:\Users\BACS\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:64553/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (596000d0-5384-4734-a320-c6e1efcc5a9d)] -> id: worrior_username]
+Session ID: 596000d0-5384-4734-a320-c6e1efcc5a9d]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.ElementNotInteractableException: Element <input id="worrior_username" class="center" type="text"> could not be scrolled into view
 Build info: version: '4.1.3', revision: '7b1ebf28ef'
 System info: host: 'SAKET-PC', ip: '192.168.141.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [3cb27cee-4fb0-4cdf-a95c-b2dcae493053, clearElement {id=61422678-3dc0-4965-99d1-930d490aec6a}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 100.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220428192727, moz:debuggerAddress: localhost:57050, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 30396, moz:profile: C:\Users\BACS\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:57050/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Element: [[FirefoxDriver: firefox on WINDOWS (3cb27cee-4fb0-4cdf-a95c-b2dcae493053)] -> id: worrior_username]
-Session ID: 3cb27cee-4fb0-4cdf-a95c-b2dcae493053
+Command: [596000d0-5384-4734-a320-c6e1efcc5a9d, clearElement {id=e1cad395-4c78-4d83-a901-f4cad74c68fe}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 100.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220428192727, moz:debuggerAddress: localhost:64553, moz:geckodriverVersion: 0.31.0, moz:headless: true, moz:processID: 16336, moz:profile: C:\Users\BACS\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:64553/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (596000d0-5384-4734-a320-c6e1efcc5a9d)] -> id: worrior_username]
+Session ID: 596000d0-5384-4734-a320-c6e1efcc5a9d
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
@@ -123,7 +123,7 @@ Session ID: 3cb27cee-4fb0-4cdf-a95c-b2dcae493053
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
 	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:126)
 	at common.Utilities.Login(Utilities.java:14)
-	at superherosregression.WebRegression.Verify_dashboard_with_registration(WebRegression.java:85)
+	at superherosregression.WebRegression.Verify_dashboard_with_registration(WebRegression.java:100)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
@@ -152,7 +152,7 @@ Session ID: 3cb27cee-4fb0-4cdf-a95c-b2dcae493053
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_dashboard_with_registration -->
-        <test-method signature="Verity_dashboard_with_login(java.lang.String, java.lang.String)[pri:0, instance:superherosregression.WebRegression@446a1e84]" started-at="2022-05-07T19:44:01Z" name="Verity_dashboard_with_login" data-provider="login" finished-at="2022-05-07T19:45:23Z" duration-ms="81564" status="PASS">
+        <test-method signature="Verity_dashboard_with_login(java.lang.String, java.lang.String)[pri:0, instance:superherosregression.WebRegression@58e1d9d]" started-at="2022-05-07T22:06:22Z" name="Verity_dashboard_with_login" data-provider="login" finished-at="2022-05-07T22:06:23Z" duration-ms="1560" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -165,10 +165,69 @@ Session ID: 3cb27cee-4fb0-4cdf-a95c-b2dcae493053
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[Element <a id="start" class="btn" href="covid"> could not be scrolled into view
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'SAKET-PC', ip: '192.168.141.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [596000d0-5384-4734-a320-c6e1efcc5a9d, clickElement {id=4d3e2d38-7116-4a70-bc2d-ba0efc313cf7}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 100.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220428192727, moz:debuggerAddress: localhost:64553, moz:geckodriverVersion: 0.31.0, moz:headless: true, moz:processID: 16336, moz:profile: C:\Users\BACS\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:64553/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (596000d0-5384-4734-a320-c6e1efcc5a9d)] -> id: start]
+Session ID: 596000d0-5384-4734-a320-c6e1efcc5a9d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: Element <a id="start" class="btn" href="covid"> could not be scrolled into view
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'SAKET-PC', ip: '192.168.141.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [596000d0-5384-4734-a320-c6e1efcc5a9d, clickElement {id=4d3e2d38-7116-4a70-bc2d-ba0efc313cf7}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 100.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220428192727, moz:debuggerAddress: localhost:64553, moz:geckodriverVersion: 0.31.0, moz:headless: true, moz:processID: 16336, moz:profile: C:\Users\BACS\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:64553/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (596000d0-5384-4734-a320-c6e1efcc5a9d)] -> id: start]
+Session ID: 596000d0-5384-4734-a320-c6e1efcc5a9d
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at common.Utilities.verify_bus_challange(Utilities.java:39)
+	at superherosregression.WebRegression.Verity_dashboard_with_login(WebRegression.java:148)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verity_dashboard_with_login -->
-        <test-method signature="Verity_errormessage_invalilogin(java.lang.String, java.lang.String)[pri:0, instance:superherosregression.WebRegression@446a1e84]" started-at="2022-05-07T19:45:23Z" name="Verity_errormessage_invalilogin" data-provider="invalidlogin" finished-at="2022-05-07T19:45:24Z" duration-ms="1402" status="PASS">
+        <test-method signature="Verity_errormessage_invalilogin(java.lang.String, java.lang.String)[pri:0, instance:superherosregression.WebRegression@58e1d9d]" started-at="2022-05-07T22:06:23Z" name="Verity_errormessage_invalilogin" data-provider="invalidlogin" finished-at="2022-05-07T22:06:25Z" duration-ms="1540" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -184,7 +243,7 @@ Session ID: 3cb27cee-4fb0-4cdf-a95c-b2dcae493053
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verity_errormessage_invalilogin -->
-        <test-method signature="Verity_errormessage_invalilogin(java.lang.String, java.lang.String)[pri:0, instance:superherosregression.WebRegression@446a1e84]" started-at="2022-05-07T19:45:24Z" name="Verity_errormessage_invalilogin" data-provider="invalidlogin" finished-at="2022-05-07T19:45:26Z" duration-ms="1357" status="PASS">
+        <test-method signature="Verity_errormessage_invalilogin(java.lang.String, java.lang.String)[pri:0, instance:superherosregression.WebRegression@58e1d9d]" started-at="2022-05-07T22:06:25Z" name="Verity_errormessage_invalilogin" data-provider="invalidlogin" finished-at="2022-05-07T22:06:26Z" duration-ms="1308" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -200,7 +259,7 @@ Session ID: 3cb27cee-4fb0-4cdf-a95c-b2dcae493053
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verity_errormessage_invalilogin -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:superherosregression.WebRegression@446a1e84]" started-at="2022-05-07T19:45:26Z" name="afterTest" finished-at="2022-05-07T19:45:27Z" duration-ms="956" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:superherosregression.WebRegression@58e1d9d]" started-at="2022-05-07T22:06:26Z" name="afterTest" finished-at="2022-05-07T22:06:27Z" duration-ms="885" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
