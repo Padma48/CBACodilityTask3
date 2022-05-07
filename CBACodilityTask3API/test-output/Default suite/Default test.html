@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/0/2</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/4</td>
 </tr><tr>
-<td>Started on:</td><td>Thu May 05 19:49:50 AEST 2022</td>
+<td>Started on:</td><td>Sat May 07 19:26:12 AEST 2022</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (40 ms)</td>
+<tr><td>Total time:</td><td>1 seconds (1250 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,10 +75,10 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='superherosregression.APIRegression.beforeTest()'><b>beforeTest</b><br>Test class: superherosregression.APIRegression</td>
+<td title='superherosregression.WebRegression.beforeTest()'><b>beforeTest</b><br>Test class: superherosregression.WebRegression</td>
 <td><div><pre>org.testng.TestNGException: 
-Parameter &apos;API_Base_URL&apos; is required by @Configuration on method beforeTest but has not been marked @Optional or defined
-in C:\Users\BACS\AppData\Local\Temp\testng-eclipse-1296389572\testng-customsuite.xml
+Parameter &apos;browser&apos; is required by @Configuration on method beforeTest but has not been marked @Optional or defined
+in C:\Users\BACS\AppData\Local\Temp\testng-eclipse--1723299252\testng-customsuite.xml
 	at org.testng.internal.Parameters.createParameters(Parameters.java:155)
 	at org.testng.internal.Parameters.createParameters(Parameters.java:358)
 	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:86)
@@ -98,10 +98,10 @@ in C:\Users\BACS\AppData\Local\Temp\testng-eclipse-1296389572\testng-customsuite
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace412925308", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace412925308'><pre>org.testng.TestNGException: 
-Parameter &apos;API_Base_URL&apos; is required by @Configuration on method beforeTest but has not been marked @Optional or defined
-in C:\Users\BACS\AppData\Local\Temp\testng-eclipse-1296389572\testng-customsuite.xml
+</pre></div><a href='#' onClick='toggleBox("stack-trace304354378", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace304354378'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by @Configuration on method beforeTest but has not been marked @Optional or defined
+in C:\Users\BACS\AppData\Local\Temp\testng-eclipse--1723299252\testng-customsuite.xml
 	at org.testng.internal.Parameters.createParameters(Parameters.java:155)
 	at org.testng.internal.Parameters.createParameters(Parameters.java:358)
 	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:86)
@@ -126,6 +126,19 @@ in C:\Users\BACS\AppData\Local\Temp\testng-eclipse-1296389572\testng-customsuite
 <td>null</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='superherosregression.WebRegression.afterTest()'><b>afterTest</b><br>Test class: superherosregression.WebRegression</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
 <tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
@@ -133,15 +146,25 @@ in C:\Users\BACS\AppData\Local\Temp\testng-eclipse-1296389572\testng-customsuite
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='superherosregression.APIRegression.Login()'><b>Login</b><br>Test class: superherosregression.APIRegression</td>
+<td title='superherosregression.WebRegression.Verify_dashboard_with_registration()'><b>Verify_dashboard_with_registration</b><br>Test class: superherosregression.WebRegression</td>
 <td></td>
 <td>0</td>
-<td>superherosregression.APIRegression@5852c06f</td></tr>
+<td>superherosregression.WebRegression@480d3575</td></tr>
 <tr>
-<td title='superherosregression.APIRegression.users_list()'><b>users_list</b><br>Test class: superherosregression.APIRegression</td>
+<td title='superherosregression.WebRegression.Verity_dashboard_with_login()'><b>Verity_dashboard_with_login</b><br>Test class: superherosregression.WebRegression<br>Parameters: Test, Test@1</td>
 <td></td>
 <td>0</td>
-<td>superherosregression.APIRegression@5852c06f</td></tr>
+<td>superherosregression.WebRegression@480d3575</td></tr>
+<tr>
+<td title='superherosregression.WebRegression.Verity_errormessage_invalilogin()'><b>Verity_errormessage_invalilogin</b><br>Test class: superherosregression.WebRegression<br>Parameters: &*()*, ^(&)</td>
+<td></td>
+<td>0</td>
+<td>superherosregression.WebRegression@480d3575</td></tr>
+<tr>
+<td title='superherosregression.WebRegression.Verity_errormessage_invalilogin()'><b>Verity_errormessage_invalilogin</b><br>Test class: superherosregression.WebRegression<br>Parameters: Test, ^(&)</td>
+<td></td>
+<td>0</td>
+<td>superherosregression.WebRegression@480d3575</td></tr>
 </table><p>
 </body>
 </html>

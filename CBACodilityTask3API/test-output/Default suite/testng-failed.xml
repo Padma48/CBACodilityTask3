@@ -3,12 +3,13 @@
 <suite parallel="none" name="Failed suite [Default suite]">
   <test parallel="none" name="Default test(failed)">
     <classes>
-      <class name="superherosregression.APIRegression">
+      <class name="superherosregression.WebRegression">
         <methods>
-          <include name="users_list"/>
-          <include name="Login"/>
+          <include name="Verify_dashboard_with_registration"/>
+          <include name="Verity_errormessage_invalilogin"/>
+          <include name="Verity_dashboard_with_login"/>
         </methods>
-      </class> <!-- superherosregression.APIRegression -->
+      </class> <!-- superherosregression.WebRegression -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

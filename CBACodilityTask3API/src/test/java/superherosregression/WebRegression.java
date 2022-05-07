@@ -14,17 +14,24 @@ import org.testng.annotations.BeforeTest;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Wait;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterTest;
 
+
 import java.io.IOException;
+import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.lang3.RandomStringUtils;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 
 public class WebRegression {
-	public String s = RandomStringUtils.randomAlphabetic(5);
+	//public String s = RandomStringUtils.randomAlphabetic(6);
 	String Pw="Password@1";
 	WebDriver driver;
 	@BeforeTest
@@ -54,33 +61,28 @@ public class WebRegression {
 		String title = driver.getTitle();
 		System.out.print("User is on " + title);
 		driver.findElement(By.id("rego")).click();
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		String s = RandomStringUtils.randomAlphabetic(6);
 		System.out.println("New username: " + s);
+		WebElement element=driver.findElement(By.name("uname"));
+		JavascriptExecutor js = ((JavascriptExecutor) driver);
+		js.executeScript("arguments[0].scrollIntoView(true);", element);
+		//String s1 = RandomStringUtils.randomAlphabetic(6);
+		driver.findElement(By.name("uname")).clear();
 		driver.findElement(By.name("uname")).sendKeys(s);
+		driver.findElement(By.name("psw")).clear();
 		driver.findElement(By.name("psw")).sendKeys(Pw);
+		driver.findElement(By.name("psw-repeat")).clear();
 		driver.findElement(By.name("psw-repeat")).sendKeys(Pw);
-		driver.findElement(By.id("signupbtn")).click();
+		//JavascriptExecutor js = ((JavascriptExecutor) driver);
+		js.executeScript("arguments[0].click();", driver.findElement(By.id("signupbtn")));
+		//driver.findElement(By.id("signupbtn")).click();
 		System.out.println("Registration successful");
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		String title1 = driver.getTitle();
 		System.out.print("User is on " + title1);
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-
-		// Write code here that turns the phrase above into concrete actions
-		// driver.findElement(By.id("start")).click();
-		// Login with registration details
-		/*
-		 * driver.findElement(By.id("worrior_username")).clear();
-		 * driver.findElement(By.id("worrior_username")).sendKeys(s);
-		 * driver.findElement(By.id("worrior_pwd")).clear();
-		 * driver.findElement(By.id("worrior_pwd")).sendKeys("Test");
-		 * driver.findElement(By.id("warrior")).click();
-		 * System.out.println("User is on " + driver.getTitle());
-		 * driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		 * System.out.println("Login successful");
-		 */
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		Utilities.Login(driver, s, Pw );
-		// Write code here that turns the phrase above into concrete actions
 		Utilities.verify_bus_challange(driver);
 		Utilities.verify_user_score(driver);
 	}

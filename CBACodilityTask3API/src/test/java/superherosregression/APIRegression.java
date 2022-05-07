@@ -64,7 +64,7 @@ public class APIRegression {
 		requestParams.put("password", "Test@1");
 		Response response = RestAssured.given().header("Authorization", ApiKey)
 				.header("Content-Type", "application/json").body(requestParams).when()
-				.post("https://supervillain.herokuapp.com/auth/user/login").andReturn();
+				.post("https://supervillain.herokuapp.com/auth/user/register").andReturn();
 		// response2.body();
 		ResponseBody<?> body1 = response.body();
 		// Converting the response body to string object
